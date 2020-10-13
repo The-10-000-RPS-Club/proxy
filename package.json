@@ -1,0 +1,32 @@
+{
+  "name": "proxy-belesiu",
+  "version": "1.0.0",
+  "description": "Matthew Belesiu's personal proxy server for FEC 3005 - Review service 3004 - Related Items service 3003 - Display Service 3001 - Question Service",
+  "main": "server/server.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Emerald-Kraken/proxy-belesiu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Emerald-Kraken/proxy-belesiu/issues"
+  },
+  "homepage": "https://github.com/The-Emerald-Kraken/proxy-belesiu#readme"
+}
